@@ -13,7 +13,7 @@ So, decreasing a risk of these kind of degration is needed.
 'deprected-maybe' classes are introduced. In this approach, thinking some variables' units are known and others unknown.
 
 - Known variables are assigned with non-labelled unit classes, such as `Meter`, `Yard`, `Pound`, `Kilogram`.
-- Unknown variables are assigned with deprecated-maybe (DM) unit classes, such as 'DMMeter`, `DMYard`, `DMPound`, `DMKilogram`.
+- Unknown variables are assigned with deprecated-maybe (DM) unit classes, such as `DMMeter`, `DMYard`, `DMPound`, `DMKilogram`.
 
 Non-labelled unit class and DM unit class both have a similar casting operators, for example:
 
