@@ -25,6 +25,15 @@ This DM unit is useful because it can represent a guessed but not certain unit o
 After debugging and variable's unit is confirmed, `DMMeter` is replaced with `Meter`.
 If even there is a mistake in guessing units, the original value is retained because casting acutally does nothing but bypassing the value.
 
+## Usage
+
+Most of business codes are well-tested with its input and output values, whose units are of course known.
+Therefore, these input and output variables can be labelled with non-labelled unit classes.
+Variables in the midst of calculation are temporarily labelled with DM unit classes.
+When these codes are going to modified and tested, these DM values' unit is also known.
+Then, the DM classes are replaced with non-labelled unit classes.
+In this way, at first all variables are labelled with DM classes with non-labelled input and outputs, but the non-labelled classes gradually soaks to inner codes.
+
 ## Examples
 
 - In `Calc` folder, there is a demonstration of modifying conventional code to unit-aware classes.
